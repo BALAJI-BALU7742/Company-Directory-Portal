@@ -1,21 +1,34 @@
-**Company Directory Portal**
-A Company Directory Portal built using HTML and CSS.
-This portal includes an employee registration form, an employee list, detailed information about employees, and an embedded Google Map showcasing the company's location.
+# Company Directory Portal
 
-**Features**
-**Employee Registration Form:** Allows users to register employees by providing their full name, email, department, employee ID, and profile picture URL.
-**Employee List:** Displays registered employees' names and emails as clickable links.
-**Employee Details Table:** Shows employee information including name, employee ID, department, and profile picture in a table.
-**Company Location:** Displays the company’s location on an embedded Google Map.
-**Technologies Used**
-**HTML:** Used for structuring the web page and its components.
-**CSS:** Used for styling and responsiveness.
-**CSS** media queries are applied to ensure the layout adapts to different screen sizes (e.g., mobile phones, tablets).
-**Google Maps Embed API:** Used to show the company location on a map.
-**Project Structure**
+A Company Directory Portal built using HTML, CSS, and Google Maps Embed API.
 
-**/company-directory-portal**
-│
-├── index.html            # Main HTML file
-├── styles.css            # CSS file for styling the portal
-├── README.md             # Documentation file (this file)
+## Features
+
+*   Employee Registration Form
+*   Employee List
+*   Employee Details Table
+*   Company Location (Google Maps)
+
+## Technologies Used
+
+*   HTML
+*   CSS (with media queries)
+*   Google Maps Embed API
+
+## Project Structure
+
+*   `/company-directory-portal`
+    *   `index.html` (Main HTML file)
+    *   `styles.css` (CSS file)
+    
+
+## Installation
+
+1.  Clone the repository
+2.  Open `index.html` in a web browser
+
+## Contributing
+
+1.  Fork the repository
+2.  Make changes and commit
+3.  Create a pull request
