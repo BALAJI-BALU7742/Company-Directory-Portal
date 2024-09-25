@@ -1,0 +1,130 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d99;
+    color: white;
+}
+
+section {
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+/* Form Section */
+#registration {
+    background-color: #e0f0ff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select {
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: #004d99;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+/* Employee List Section */
+#employeeList ol {
+    padding: 10px;
+    list-style: none;
+    width: 300px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#employeeList ol li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#employeeList ol li a {
+    text-decoration: none;
+    color: #004d99;
+}
+
+#employeeList ol li a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+/* Employee Details Table */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #004d99;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Map Styling */
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        max-width: 90%;
+    }
+
+    #registration {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+    }
+}
